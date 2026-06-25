@@ -1,8 +1,3 @@
 {
-  "hi there": ["hello", "hi", "greetings"],
-  "you have": ["you've received", "you've been sent"],
-  "voicemail": ["voice message", "message"],
-  "message": ["notification", "alert"],
-  "please log in": ["log in", "access"],
-  "regards": ["thank you", "sincerely"]
+  "hi there": ["hello", "hi", "greetings"]
 }
