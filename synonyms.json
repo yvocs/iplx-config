@@ -1,405 +1,159 @@
 {
-  "hi there": ["hello", "hi", "greetings", "hey", "good day", "welcome"],
-  "hello": ["hi", "hi there", "greetings", "hey", "good day", "howdy"],
-  "dear": ["hello", "hi", "greetings", "welcome"],
-  "greetings": ["hello", "hi", "hey", "welcome"],
-  
-  "you have": ["you've received", "you've been sent", "you have been sent", "awaiting you"],
-  "you received": ["you have received", "you've been sent", "a message is waiting"],
-  "you've got": ["you have", "you received", "awaiting you"],
-  "a new": ["an", "your new", "a recent", "another"],
-  "new": ["recent", "latest", "upcoming", "fresh"],
-  
-  "voicemail": ["voice message", "message", "voicemail notification", "audio message", "recorded message"],
-  "new voicemail": ["voicemail message", "voice message", "new message", "recorded message waiting"],
-  "message": ["notification", "alert", "communication", "voicemail", "correspondence"],
-  "waiting": ["pending", "ready for review", "awaiting your attention"],
-  "arrived": ["been received", "is here", "is waiting", "has come in"],
-  "received": ["arrived", "been received", "is here", "came in"],
-  "notification": ["alert", "message", "notice", "update"],
-  
-  "duration": ["message length", "recording time", "call duration", "length", "time"],
-  "message length": ["duration", "length of recording", "time", "recording duration"],
-  "call duration": ["duration", "message length", "length", "time spent"],
-  "recording time": ["duration", "length", "message length"],
-  
-  "reference": ["reference number", "code", "id", "tracking number", "reference code"],
-  "code": ["reference", "reference code", "id", "number"],
-  "message id": ["reference", "code", "tracking number", "id", "message number"],
-  "id": ["code", "reference", "identifier", "number"],
-  "tracking number": ["reference", "code", "id"],
-  
-  "please log in": ["log in", "access", "visit", "check", "sign in"],
-  "log in to your account": ["access your account", "visit your portal", "check your account", "sign into your account"],
-  "access your account": ["log in to your account", "visit your portal", "check your account"],
-  "visit your portal": ["log in to your account", "access your account", "check your account"],
-  "sign in": ["log in", "access", "sign into"],
-  
-  "to listen": ["to review", "for playback", "to hear", "for audio"],
-  "to review": ["to listen", "to check", "for reference", "to examine"],
-  "listen to": ["review", "hear", "play", "access"],
-  "playback": ["listen", "hear", "review", "play"],
-  
-  "your account": ["your portal", "your inbox", "the account", "your profile"],
-  "your portal": ["your account", "your inbox", "the portal"],
-  "your inbox": ["your account", "your portal", "the inbox"],
-  "account": ["profile", "account profile", "user account"],
-  "profile": ["account", "user profile"],
-  
-  "regards": ["thank you", "best regards", "sincerely", "cordially", "respectfully"],
-  "thank you": ["regards", "best regards", "appreciation", "thanks", "gratitude"],
-  "best regards": ["regards", "sincerely", "cordially", "respectfully"],
-  "sincerely": ["regards", "best regards", "cordially", "respectfully"],
-  "cordially": ["sincerely", "regards", "best regards"],
-  "respectfully": ["sincerely", "regards", "cordially"],
-  "thanks": ["thank you", "appreciation", "gratitude"],
-  
-  "voicemail system": ["communications team", "message center", "system", "support", "support team"],
-  "communications team": ["message team", "support team", "system", "support"],
-  "message center": ["message team", "communications team", "support", "support team"],
-  "support team": ["communications team", "support", "message team"],
-  "support": ["help", "support team", "assistance"],
-  
-  "immediately": ["now", "right away", "as soon as possible", "promptly", "without delay"],
-  "soon": ["shortly", "in the near future", "when you have a moment", "at your earliest convenience"],
-  "now": ["immediately", "right away", "without delay", "at once"],
-  "right away": ["immediately", "now", "without delay"],
-  "promptly": ["immediately", "now", "right away", "without delay"],
-  
-  "important": ["critical", "significant", "noteworthy", "essential"],
-  "urgent": ["time-sensitive", "important", "critical", "pressing"],
-  "critical": ["important", "urgent", "significant", "essential"],
-  
-  "please": ["kindly", "we request that you", "we ask that you"],
-  "kindly": ["please", "we request that you"],
-  
-  "we would love": ["we would appreciate", "we value", "we would be delighted"],
-  "we would appreciate": ["we value", "we would love", "we welcome"],
-  "we value": ["we appreciate", "we treasure", "your value matters"],
-  "your feedback": ["your input", "your thoughts", "your opinion", "your comments"],
-  "input": ["feedback", "thoughts", "opinion", "suggestion"],
-  
-  "survey": ["questionnaire", "feedback form", "poll", "survey form"],
-  "survey id": ["survey code", "survey reference", "questionnaire id", "survey number"],
-  "questionnaire": ["survey", "poll", "feedback form"],
-  "poll": ["survey", "questionnaire", "vote"],
-  
-  "alert": ["notice", "warning", "notification", "alert message"],
-  "security alert": ["security notice", "account alert", "security warning", "security notification"],
-  "detected": ["identified", "found", "noticed", "discovered"],
-  "unusual activity": ["suspicious activity", "unexpected activity", "abnormal activity", "irregular activity"],
-  
-  "verification": ["confirmation", "authentication", "verification code", "validation"],
-  "verify": ["confirm", "authenticate", "validate", "check"],
-  "confirmation": ["verification", "confirmation number", "confirmed"],
-  "authenticate": ["verify", "confirm", "validate"],
-  "validation": ["verification", "confirmation", "authentication"],
-  
-  "promotion": ["offer", "deal", "special", "promotional offer"],
-  "exclusive offer": ["special offer", "limited offer", "exclusive deal", "limited time offer"],
-  "discount": ["savings", "reduction", "special price", "price cut"],
-  "save": ["get", "receive discount", "obtain savings", "save money"],
-  "promotional code": ["promo code", "coupon code", "discount code", "promotion code"],
-  "use code": ["apply code", "enter code", "redeem code", "input code"],
-  
-  "offer valid": ["promotion valid", "deal valid", "offer good", "applicable for"],
-  "limited time": ["for a limited time", "while supplies last", "until", "time-limited"],
-  "hurry": ["act fast", "don't wait", "act now", "take action"],
-  "act fast": ["hurry", "don't wait", "act now"],
-  
-  "action required": ["action needed", "please respond", "requires your attention", "your action needed"],
-  "complete": ["finish", "fulfill", "perform", "do", "accomplish"],
-  "confirm": ["verify", "authenticate", "validate", "acknowledge"],
-  
-  "do not": ["never", "please do not", "avoid", "do not"],
-  "keep confidential": ["do not share", "keep secret", "protect", "keep private"],
-  "share": ["forward", "send to others", "distribute"],
-  "private": ["confidential", "personal", "secure"],
-  
-  "thank you for": ["we appreciate your", "thanks for", "appreciation for your", "grateful for your"],
-  "we appreciate": ["we value", "we treasure", "we thank you for"],
-  "contribution": ["input", "feedback", "participation", "involvement"],
-  "participate": ["join", "take part", "get involved", "contribute"],
-  
-  "check": ["review", "examine", "look at", "inspect"],
-  "review": ["check", "look at", "examine", "inspect"],
-  "examine": ["check", "review", "inspect", "look at"],
-  "inspect": ["check", "examine", "review", "look over"],
-  
-  "access": ["get access to", "reach", "obtain", "get to"],
-  "reach": ["access", "contact", "get to", "arrive at"],
-  "obtain": ["get", "acquire", "receive", "access"],
-  
-  "appointment": ["meeting", "scheduled time", "appointment time", "booking"],
-  "meeting": ["appointment", "meeting time", "scheduled meeting"],
-  "booking": ["appointment", "reservation", "scheduled booking"],
-  "reminder": ["reminder note", "notification", "alert"],
-  
-  "confirm": ["please confirm", "confirm attendance", "confirm receipt"],
-  "attendance": ["participation", "presence", "attendance"],
-  
-  "invoice": ["bill", "invoice number", "billing statement"],
-  "bill": ["invoice", "billing", "statement"],
-  "amount due": ["balance due", "amount owed", "total due"],
-  "due date": ["payment due date", "deadline", "due by"],
-  "payment": ["pay", "remit payment", "pay amount"],
-  "remit": ["pay", "send payment", "submit payment"],
-  
-  "order": ["purchase order", "order number", "order id"],
-  "order id": ["order number", "order code", "order reference"],
-  "order status": ["status update", "order update", "current status"],
-  "processed": ["handled", "completed", "finished"],
-  "shipped": ["on the way", "in transit", "en route"],
-  "tracking": ["tracking number", "track your order", "shipment tracking"],
-  "track": ["follow", "monitor", "check status"],
-  
-  "thank you for shopping": ["thank you for your purchase", "thank you for ordering", "appreciate your business"],
-  "customer service": ["support team", "help desk", "customer support"],
-  "customer": ["valued customer", "client"],
-  
-  "letter": ["correspondence", "message", "communication"],
-  "business": ["professional", "corporate", "company"],
-  "professional": ["business", "expert", "qualified"],
-  
-  "collaboration": ["partnership", "working together", "cooperative effort"],
-  "opportunity": ["opportunity", "chance", "possibility"],
-  "innovative": ["creative", "forward-thinking", "novel"],
-  "approach": ["method", "strategy", "way"],
-  
-  "impressed": ["impressed with", "pleased with", "satisfied with"],
-  "impress": ["make a good impression", "stand out", "catch attention"],
-  "value": ["importance", "worth", "significance"],
-  "working together": ["collaboration", "partnership", "cooperative work"],
-  
-  "meeting": ["discuss", "meet", "conversation"],
-  "discuss": ["talk about", "review", "go over"],
-  "available": ["free", "open", "accessible"],
-  "availability": ["available time", "open time", "free time"],
-  
-  "front": ["beginning", "start", "initial"],
-  "back": ["end", "final", "closing"],
-  "event": ["occasion", "gathering", "function"],
-  "attendee": ["participant", "guest", "attendant"],
-  
-  "experience": ["encounter", "exposure", "involvement"],
-  "feedback": ["comments", "input", "response"],
-  "response": ["reply", "answer", "feedback"],
-  "answer": ["response", "reply", "result"],
-  
-  "request": ["ask", "inquire", "request"],
-  "inquiry": ["question", "request", "inquiry"],
-  "question": ["inquiry", "query", "question"],
-  
-  "send": ["transmit", "dispatch", "forward"],
-  "receive": ["get", "obtain", "accept"],
-  "accept": ["receive", "approve", "agree"],
-  "reject": ["decline", "refuse", "deny"],
-  
-  "approve": ["authorize", "consent", "validate"],
-  "authorization": ["approval", "permission", "consent"],
-  "permission": ["approval", "authorization", "consent"],
-  
-  "update": ["new information", "latest update", "new details"],
-  "change": ["modification", "update", "alteration"],
-  "modify": ["change", "alter", "update"],
-  
-  "start": ["begin", "commence", "initiate"],
-  "begin": ["start", "commence", "initiate"],
-  "end": ["conclude", "finish", "complete"],
-  "conclude": ["end", "finish", "wrap up"],
-  
-  "time": ["duration", "period", "timeframe"],
-  "date": ["calendar date", "specific day", "when"],
-  "schedule": ["timetable", "calendar", "planned time"],
-  "scheduled": ["planned", "set", "booked"],
-  
-  "information": ["details", "data", "facts"],
-  "details": ["information", "specifics", "particulars"],
-  "data": ["information", "statistics", "records"],
-  
-  "follow up": ["follow-up", "check in", "follow up"],
-  "check in": ["follow up", "reach out", "contact"],
-  "reach out": ["contact", "get in touch", "communicate"],
-  
-  "connect": ["link", "join", "attach"],
-  "link": ["connect", "attachment", "reference"],
-  "reference": ["link", "cite", "refer to"],
-  
-  "include": ["contain", "consist of", "comprise"],
-  "attach": ["add", "enclose", "include"],
-  "enclose": ["attach", "include", "add"],
-  
-  "document": ["file", "record", "paperwork"],
-  "file": ["document", "record", "folder"],
-  "attachment": ["file", "document", "enclosed item"],
-  
-  "system": ["platform", "network", "service"],
-  "platform": ["system", "service", "application"],
-  "service": ["system", "platform", "support"],
-  "application": ["app", "software", "program"],
-  
-  "continue": ["go on", "proceed", "keep going"],
-  "proceed": ["continue", "go forward", "move ahead"],
-  "forward": ["ahead", "onward", "next"],
-  
-  "important information": ["critical information", "key details", "essential information"],
-  "critical information": ["important information", "key details", "vital information"],
-  "vital": ["important", "critical", "essential"],
-  
-  "secure": ["safe", "protected", "encrypted"],
-  "safe": ["secure", "protected", "sound"],
-  "protect": ["secure", "safeguard", "shield"],
-  
-  "password": ["access code", "login credentials", "pin"],
-  "credentials": ["login information", "password", "access details"],
-  "login": ["sign in", "log in", "access"],
-  
-  "reset": ["restart", "restore", "reinitialize"],
-  "clear": ["delete", "remove", "erase"],
-  "delete": ["remove", "clear", "erase"],
-  
-  "error": ["mistake", "problem", "issue"],
-  "problem": ["issue", "error", "difficulty"],
-  "issue": ["problem", "concern", "matter"],
-  
-  "resolve": ["fix", "solve", "address"],
-  "fix": ["resolve", "repair", "address"],
-  "repair": ["fix", "restore", "mend"],
-  
-  "support": ["help", "assist", "aid"],
-  "assist": ["help", "support", "aid"],
-  "help": ["assist", "support", "provide aid"],
-  
-  "troubleshoot": ["diagnose", "identify issue", "fix problem"],
-  "diagnose": ["troubleshoot", "identify", "analyze"],
-  "analyze": ["examine", "review", "investigate"],
-  
-  "documentation": ["documentation", "guides", "help documents"],
-  "guide": ["instructions", "manual", "guidelines"],
-  "manual": ["guide", "instructions", "handbook"],
-  
-  "tutorial": ["guide", "lesson", "how-to"],
-  "lesson": ["tutorial", "training", "instruction"],
-  "training": ["instruction", "lesson", "education"],
-  
-  "contact us": ["reach out", "get in touch", "contact support"],
-  "get in touch": ["contact us", "reach out", "communicate"],
-  "communicate": ["contact", "reach out", "get in touch"],
-  
-  "website": ["site", "online portal", "web page"],
-  "web page": ["website", "page", "online content"],
-  "online": ["web", "internet", "digital"],
-  
-  "welcome": ["greet", "receive", "hello"],
-  "recently": ["lately", "recently", "in recent times"],
-  "soon": ["shortly", "in the near future", "coming soon"],
-  "coming soon": ["soon", "upcoming", "arriving soon"],
-  
-  "best": ["finest", "excellent", "top"],
-  "excellent": ["great", "outstanding", "superb"],
-  "great": ["excellent", "wonderful", "fantastic"],
-  
-  "good": ["well", "satisfactory", "acceptable"],
-  "well": ["good", "nicely", "properly"],
-  "better": ["improved", "superior", "enhanced"],
-  
-  "improve": ["enhance", "better", "upgrade"],
-  "enhance": ["improve", "upgrade", "strengthen"],
-  "upgrade": ["improve", "advance", "enhance"],
-  
-  "special": ["unique", "exclusive", "particular"],
-  "unique": ["special", "one-of-a-kind", "distinct"],
-  "exclusive": ["special", "unique", "limited"],
-  
-  "limited": ["restricted", "limited availability", "few"],
-  "available": ["on hand", "in stock", "obtainable"],
-  "availability": ["available quantity", "in stock", "obtainable"],
-  
-  "quantity": ["amount", "number", "quantity"],
-  "number": ["quantity", "count", "amount"],
-  "count": ["number", "quantity", "total"],
-  
-  "total": ["sum", "overall", "complete total"],
-  "sum": ["total", "amount", "overall"],
-  "overall": ["total", "general", "all-encompassing"],
-  
-  "price": ["cost", "rate", "fee"],
-  "cost": ["price", "expense", "charge"],
-  "fee": ["charge", "price", "cost"],
-  
-  "value": ["worth", "merit", "benefit"],
-  "benefit": ["advantage", "value", "gain"],
-  "advantage": ["benefit", "strength", "plus"],
-  
-  "success": ["accomplish", "achievement", "positive result"],
-  "accomplish": ["achieve", "succeed", "complete"],
-  "achievement": ["success", "accomplishment", "milestone"],
-  
-  "progress": ["advancement", "movement", "improvement"],
-  "advancement": ["progress", "development", "promotion"],
-  "development": ["progress", "advancement", "growth"],
-  
-  "growth": ["expansion", "development", "increase"],
-  "expansion": ["growth", "increase", "development"],
-  "increase": ["growth", "expansion", "rise"],
-  
-  "decrease": ["reduction", "decline", "drop"],
-  "reduction": ["decrease", "cut", "decline"],
-  "decline": ["decrease", "fall", "drop"],
-  
-  "business opportunity": ["opportunity for business", "business proposition", "venture"],
-  "partnership": ["collaboration", "alliance", "joint venture"],
-  "alliance": ["partnership", "collaboration", "agreement"],
-  
-  "proposal": ["suggestion", "offer", "proposition"],
-  "suggestion": ["proposal", "recommendation", "idea"],
-  "recommendation": ["suggestion", "advice", "proposal"],
-  
-  "decision": ["choice", "determination", "ruling"],
-  "choice": ["decision", "option", "selection"],
-  "selection": ["choice", "pick", "decision"],
-  
-  "agreement": ["contract", "understanding", "accord"],
-  "contract": ["agreement", "binding agreement", "document"],
-  "terms": ["conditions", "terms and conditions", "requirements"],
-  
-  "condition": ["requirement", "stipulation", "term"],
-  "requirement": ["condition", "necessity", "must have"],
-  "necessity": ["requirement", "need", "essential item"],
-  
-  "need": ["require", "necessity", "want"],
-  "require": ["need", "demand", "necessitate"],
-  "demand": ["require", "request", "insist"],
-  
-  "want": ["desire", "need", "wish"],
-  "desire": ["want", "wish", "aspiration"],
-  "wish": ["desire", "want", "hope"],
-  
-  "hope": ["wish", "expectation", "anticipate"],
-  "expect": ["anticipate", "predict", "assume"],
-  "anticipate": ["expect", "predict", "foresee"],
-  
-  "ensure": ["guarantee", "make sure", "confirm"],
-  "guarantee": ["ensure", "promise", "warrant"],
-  "promise": ["guarantee", "commit", "assure"],
-  
-  "assure": ["promise", "guarantee", "convince"],
-  "convince": ["persuade", "assure", "get buy-in"],
-  "persuade": ["convince", "influence", "sway"],
-  
-  "influence": ["persuade", "affect", "impact"],
-  "affect": ["impact", "influence", "change"],
-  "impact": ["effect", "influence", "consequence"],
-  
-  "effect": ["result", "impact", "consequence"],
-  "result": ["outcome", "effect", "consequence"],
-  "outcome": ["result", "conclusion", "finding"],
-  
-  "conclusion": ["end", "result", "summary"],
-  "summary": ["conclusion", "overview", "recap"],
-  "recap": ["summary", "overview", "review"],
-  
-  "overview": ["summary", "outline", "general view"],
-  "outline": ["overview", "summary", "sketch"],
-  "sketch": ["outline", "basic description", "overview"]
+  "hello": ["hi", "greetings", "hey"],
+  "you have received": ["you received", "you've been sent", "awaiting you is"],
+  "a new voicemail": ["a new voice message", "a voicemail message", "a voice message"],
+  "voicemail waiting": ["message pending", "voicemail awaiting your review"],
+  "message length": ["duration", "recording length", "message duration"],
+  "access your account": ["log into your account", "sign in to your account", "visit your account"],
+  "review the message": ["listen to the message", "hear the message", "play the message"],
+  "thank you": ["regards", "appreciation", "thanks"],
+  
+  "you have": ["you received", "you've got"],
+  "received a": ["been sent a", "have a"],
+  "new message": ["voicemail message", "voice message"],
+  "please log in": ["log in", "sign in", "access"],
+  "your account": ["your portal", "your system"],
+  "to review": ["to check", "to listen"],
+  "regards system": ["support team", "communication team"],
+  
+  "confirm your attendance": ["confirm receipt", "please confirm"],
+  "meeting at": ["appointment at", "scheduled for"],
+  "please reply": ["please respond", "kindly confirm"],
+  
+  "amount due": ["balance due", "total amount owed"],
+  "payment due date": ["deadline for payment", "payment due by"],
+  "please remit": ["please send payment", "please pay"],
+  
+  "order has been": ["your order is", "order status is"],
+  "processing": ["being processed", "in progress"],
+  "shipped": ["on the way", "in transit"],
+  "track your order": ["check your shipment", "follow your delivery"],
+  
+  "survey id": ["questionnaire code", "poll reference"],
+  "we appreciate": ["we value", "we're grateful for"],
+  "your feedback": ["your input", "your comments"],
+  "complete our survey": ["fill out our questionnaire", "participate in our poll"],
+  
+  "security alert": ["security notice", "account alert"],
+  "detected unusual": ["identified suspicious", "found unusual"],
+  "activity on": ["activity in", "action on"],
+  "verify your account": ["confirm your identity", "authenticate your account"],
+  
+  "exclusive offer": ["special promotion", "limited time offer"],
+  "save up to": ["get up to", "receive up to"],
+  "discount code": ["promo code", "coupon code"],
+  "limited time": ["while supplies last", "for a limited period"],
+  "act now": ["hurry", "don't wait"],
+  
+  "hello there": ["hi there", "greetings"],
+  "best regards": ["sincerely", "cordially"],
+  "thank you for": ["appreciation for", "grateful for"],
+  
+  "important information": ["critical details", "key information"],
+  "please do not": ["never", "do not"],
+  "keep confidential": ["do not share", "keep private"],
+  
+  "contact us": ["reach out", "get in touch"],
+  "for more information": ["for additional details", "for more details"],
+  "support team": ["help desk", "customer service"],
+  
+  "appointments scheduled": ["meetings scheduled", "bookings scheduled"],
+  "date and time": ["scheduled time", "appointment time"],
+  "confirm attendance": ["confirm your attendance", "please confirm"],
+  
+  "invoice number": ["bill number", "billing reference"],
+  "total amount": ["amount owed", "total due"],
+  "due date": ["payment deadline", "due by"],
+  
+  "order number": ["order id", "order reference"],
+  "has been processed": ["is being processed", "was processed"],
+  "will ship": ["is shipping", "is on the way"],
+  
+  "business opportunity": ["partnership opportunity", "collaborative venture"],
+  "we are excited": ["we are pleased", "we look forward"],
+  "working with you": ["collaborating with you", "partnering with you"],
+  
+  "professional development": ["career growth", "skill advancement"],
+  "performance review": ["evaluation", "assessment"],
+  "achievements": ["accomplishments", "successes"],
+  
+  "immediate action": ["urgent action", "prompt action"],
+  "required immediately": ["needed right away", "required promptly"],
+  "as soon as possible": ["promptly", "without delay"],
+  
+  "document attached": ["file enclosed", "attachment included"],
+  "please review": ["kindly review", "please examine"],
+  "prior to": ["before", "in advance of"],
+  
+  "quarterly results": ["quarterly performance", "quarterly update"],
+  "financial report": ["financial statement", "financial summary"],
+  "revenue": ["sales", "income"],
+  
+  "project completion": ["project finish", "project deadline"],
+  "milestone achieved": ["goal reached", "target met"],
+  "on schedule": ["on track", "on time"],
+  
+  "team collaboration": ["teamwork", "collective effort"],
+  "cross functional": ["interdepartmental", "multi-team"],
+  "department": ["division", "team"],
+  
+  "customer satisfaction": ["client satisfaction", "customer happiness"],
+  "quality assurance": ["quality control", "quality check"],
+  "standards compliance": ["regulatory compliance", "standard adherence"],
+  
+  "welcome aboard": ["glad to have you", "welcome to the team"],
+  "onboarding process": ["orientation", "new hire process"],
+  "training materials": ["training resources", "instructional materials"],
+  
+  "performance metrics": ["performance indicators", "key metrics"],
+  "productivity": ["output", "efficiency"],
+  "engagement": ["participation", "involvement"],
+  
+  "feedback session": ["feedback meeting", "feedback discussion"],
+  "constructive criticism": ["helpful feedback", "development feedback"],
+  "improvement areas": ["areas for growth", "development opportunities"],
+  
+  "schedule meeting": ["arrange meeting", "set up meeting"],
+  "find time": ["determine availability", "check calendar"],
+  "at your convenience": ["whenever you're available", "at your earliest convenience"],
+  
+  "budget allocation": ["budget plan", "budget distribution"],
+  "cost savings": ["reduced expenses", "savings"],
+  "investment": ["funding", "capital allocation"],
+  
+  "data analysis": ["analytics", "data review"],
+  "report findings": ["present results", "share findings"],
+  "recommendations": ["suggestions", "proposed actions"],
+  
+  "risk assessment": ["risk evaluation", "risk analysis"],
+  "mitigation strategy": ["risk management", "preventative measures"],
+  "contingency plan": ["backup plan", "alternative plan"],
+  
+  "project scope": ["project boundaries", "project parameters"],
+  "deliverables": ["outputs", "end products"],
+  "timeline": ["schedule", "timeframe"],
+  
+  "stakeholder meeting": ["team meeting", "participant meeting"],
+  "progress update": ["status update", "progress report"],
+  "blockers": ["obstacles", "challenges"],
+  
+  "best practices": ["standard procedures", "proven methods"],
+  "lessons learned": ["takeaways", "insights"],
+  "continuous improvement": ["ongoing enhancement", "regular improvement"],
+  
+  "maintain consistency": ["keep standards", "ensure uniformity"],
+  "documentation": ["records", "paperwork"],
+  "archive": ["store", "preserve"],
+  
+  "compliance requirement": ["regulatory requirement", "mandatory requirement"],
+  "audit": ["review", "inspection"],
+  "certification": ["accreditation", "validation"],
+  
+  "innovation initiative": ["new project", "improvement project"],
+  "pilot program": ["trial program", "test program"],
+  "scale up": ["expand", "grow"],
+  
+  "partnership agreement": ["collaborative agreement", "business agreement"],
+  "mutual benefit": ["shared benefit", "win-win"],
+  "value proposition": ["key benefits", "main advantages"]
 }
